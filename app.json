@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/imageeditor/imageeditor",
+    "pages/combine/combine",
+    "pages/user/user",
+    "pages/find/find"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff8000",
+    "navigationBarTitleText": "我要圣诞帽",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabbar/index.png",
+        "selectedIconPath": "images/tabbar/index2.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/tabbar/user.png",
+        "selectedIconPath": "images/tabbar/user2.png"
+      }
+    ],
+    "color": "#a9b7b7",
+    "selectedColor": "#ff8000",
+    "borderStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
